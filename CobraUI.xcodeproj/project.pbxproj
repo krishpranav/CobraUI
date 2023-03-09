@@ -13,6 +13,9 @@
 		7775F5FA29BA193300A033B6 /* CobraUI.h in Headers */ = {isa = PBXBuildFile; fileRef = 7775F5EC29BA193300A033B6 /* CobraUI.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		7775F60529BA196800A033B6 /* CobraView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7775F60429BA196800A033B6 /* CobraView.swift */; };
 		7775F60729BA19C500A033B6 /* CobraForEach.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7775F60629BA19C500A033B6 /* CobraForEach.swift */; };
+		7775F60929BA1B3500A033B6 /* README.md in Resources */ = {isa = PBXBuildFile; fileRef = 7775F60829BA1B3500A033B6 /* README.md */; };
+		7775F60C29BA1BBD00A033B6 /* AnglePresenter.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7775F60B29BA1BBD00A033B6 /* AnglePresenter.swift */; };
+		7775F60E29BA1BFD00A033B6 /* AngleInteractor.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7775F60D29BA1BFD00A033B6 /* AngleInteractor.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -33,6 +36,9 @@
 		7775F5F829BA193300A033B6 /* CobraUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CobraUITests.swift; sourceTree = "<group>"; };
 		7775F60429BA196800A033B6 /* CobraView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CobraView.swift; sourceTree = "<group>"; };
 		7775F60629BA19C500A033B6 /* CobraForEach.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CobraForEach.swift; sourceTree = "<group>"; };
+		7775F60829BA1B3500A033B6 /* README.md */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = "<group>"; };
+		7775F60B29BA1BBD00A033B6 /* AnglePresenter.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AnglePresenter.swift; sourceTree = "<group>"; };
+		7775F60D29BA1BFD00A033B6 /* AngleInteractor.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AngleInteractor.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -57,6 +63,7 @@
 		7775F5DF29BA193300A033B6 = {
 			isa = PBXGroup;
 			children = (
+				7775F60829BA1B3500A033B6 /* README.md */,
 				7775F5EB29BA193300A033B6 /* CobraUI */,
 				7775F5F729BA193300A033B6 /* CobraUITests */,
 				7775F5EA29BA193300A033B6 /* Products */,
@@ -75,6 +82,7 @@
 		7775F5EB29BA193300A033B6 /* CobraUI */ = {
 			isa = PBXGroup;
 			children = (
+				7775F60A29BA1BA900A033B6 /* Angle */,
 				7775F60329BA193E00A033B6 /* Cobra */,
 				7775F5EC29BA193300A033B6 /* CobraUI.h */,
 				7775F5ED29BA193300A033B6 /* CobraUI.docc */,
@@ -97,6 +105,15 @@
 				7775F60629BA19C500A033B6 /* CobraForEach.swift */,
 			);
 			path = Cobra;
+			sourceTree = "<group>";
+		};
+		7775F60A29BA1BA900A033B6 /* Angle */ = {
+			isa = PBXGroup;
+			children = (
+				7775F60B29BA1BBD00A033B6 /* AnglePresenter.swift */,
+				7775F60D29BA1BFD00A033B6 /* AngleInteractor.swift */,
+			);
+			path = Angle;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -191,6 +208,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				7775F60929BA1B3500A033B6 /* README.md in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -208,8 +226,10 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				7775F60E29BA1BFD00A033B6 /* AngleInteractor.swift in Sources */,
 				7775F60529BA196800A033B6 /* CobraView.swift in Sources */,
 				7775F60729BA19C500A033B6 /* CobraForEach.swift in Sources */,
+				7775F60C29BA1BBD00A033B6 /* AnglePresenter.swift in Sources */,
 				7775F5EE29BA193300A033B6 /* CobraUI.docc in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
