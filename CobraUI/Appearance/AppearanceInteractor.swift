@@ -2,7 +2,7 @@
 //  AppearanceInteractor.swift
 //  CobraUI
 //
-//  Created by eCOM-Elango.a on 09/03/23.
+//  Created by Krisna Pranav on 09/03/23.
 //
 
 import Combine
@@ -14,7 +14,7 @@ public enum GradientType: Equatable {
     case radial
 }
 
-public struct SkeletonColor {
+public struct CobraColor {
     public static var primary: Color {
         #if os(iOS)
             return Color(.systemGray4)
@@ -42,8 +42,8 @@ public struct SkeletonColor {
 
 
 public enum AppearanceType: Equatable {
-    case solid(color: Color = SkeletonColor.primary, background: Color = SkeletonColor.background)
-    case gradient(GradientType = .linear, color: Color = SkeletonColor.primary, background: Color = SkeletonColor.background, radius: CGFloat = 1, angle: CGFloat = .zero)
+    case solid(color: Color = CobraColor.primary, background: Color = CobraColor.background)
+    case gradient(GradientType = .linear, color: Color = CobraColor.primary, background: Color = CobraColor.background, radius: CGFloat = 1, angle: CGFloat = .zero)
 }
 
 // sourcery: AutoMockable

@@ -22,6 +22,8 @@
 		7775F61929BA20C800A033B6 /* OptionalType.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7775F61829BA20C800A033B6 /* OptionalType.swift */; };
 		7775F61C29BA22E600A033B6 /* AppearanceInteractor.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7775F61B29BA22E600A033B6 /* AppearanceInteractor.swift */; };
 		7775F61E29BA23D300A033B6 /* AppearancePresenter.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7775F61D29BA23D300A033B6 /* AppearancePresenter.swift */; };
+		7775F62229BA24F800A033B6 /* ClosedRange+Normalize.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7775F62129BA24F800A033B6 /* ClosedRange+Normalize.swift */; };
+		7775F62429BA253200A033B6 /* Image+OptionalType.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7775F62329BA253200A033B6 /* Image+OptionalType.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -51,6 +53,8 @@
 		7775F61829BA20C800A033B6 /* OptionalType.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OptionalType.swift; sourceTree = "<group>"; };
 		7775F61B29BA22E600A033B6 /* AppearanceInteractor.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppearanceInteractor.swift; sourceTree = "<group>"; };
 		7775F61D29BA23D300A033B6 /* AppearancePresenter.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppearancePresenter.swift; sourceTree = "<group>"; };
+		7775F62129BA24F800A033B6 /* ClosedRange+Normalize.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "ClosedRange+Normalize.swift"; sourceTree = "<group>"; };
+		7775F62329BA253200A033B6 /* Image+OptionalType.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Image+OptionalType.swift"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -94,6 +98,8 @@
 		7775F5EB29BA193300A033B6 /* CobraUI */ = {
 			isa = PBXGroup;
 			children = (
+				7775F62029BA24EE00A033B6 /* Extension */,
+				7775F61F29BA24CA00A033B6 /* Extensions */,
 				7775F61A29BA22D200A033B6 /* Appearance */,
 				7775F61729BA20BA00A033B6 /* Protocols */,
 				7775F61229BA204000A033B6 /* Position */,
@@ -164,6 +170,22 @@
 				7775F61D29BA23D300A033B6 /* AppearancePresenter.swift */,
 			);
 			path = Appearance;
+			sourceTree = "<group>";
+		};
+		7775F61F29BA24CA00A033B6 /* Extensions */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Extensions;
+			sourceTree = "<group>";
+		};
+		7775F62029BA24EE00A033B6 /* Extension */ = {
+			isa = PBXGroup;
+			children = (
+				7775F62129BA24F800A033B6 /* ClosedRange+Normalize.swift */,
+				7775F62329BA253200A033B6 /* Image+OptionalType.swift */,
+			);
+			path = Extension;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -285,6 +307,8 @@
 				7775F60729BA19C500A033B6 /* CobraForEach.swift in Sources */,
 				7775F60C29BA1BBD00A033B6 /* AnglePresenter.swift in Sources */,
 				7775F61929BA20C800A033B6 /* OptionalType.swift in Sources */,
+				7775F62429BA253200A033B6 /* Image+OptionalType.swift in Sources */,
+				7775F62229BA24F800A033B6 /* ClosedRange+Normalize.swift in Sources */,
 				7775F61429BA205600A033B6 /* PositionPresenter.swift in Sources */,
 				7775F5EE29BA193300A033B6 /* CobraUI.docc in Sources */,
 			);
