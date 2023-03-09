@@ -11,6 +11,8 @@
 		7775F5F429BA193300A033B6 /* CobraUI.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 7775F5E929BA193300A033B6 /* CobraUI.framework */; };
 		7775F5F929BA193300A033B6 /* CobraUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7775F5F829BA193300A033B6 /* CobraUITests.swift */; };
 		7775F5FA29BA193300A033B6 /* CobraUI.h in Headers */ = {isa = PBXBuildFile; fileRef = 7775F5EC29BA193300A033B6 /* CobraUI.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		7775F60529BA196800A033B6 /* CobraView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7775F60429BA196800A033B6 /* CobraView.swift */; };
+		7775F60729BA19C500A033B6 /* CobraForEach.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7775F60629BA19C500A033B6 /* CobraForEach.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -29,6 +31,8 @@
 		7775F5ED29BA193300A033B6 /* CobraUI.docc */ = {isa = PBXFileReference; lastKnownFileType = folder.documentationcatalog; path = CobraUI.docc; sourceTree = "<group>"; };
 		7775F5F329BA193300A033B6 /* CobraUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = CobraUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		7775F5F829BA193300A033B6 /* CobraUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CobraUITests.swift; sourceTree = "<group>"; };
+		7775F60429BA196800A033B6 /* CobraView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CobraView.swift; sourceTree = "<group>"; };
+		7775F60629BA19C500A033B6 /* CobraForEach.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CobraForEach.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -71,6 +75,7 @@
 		7775F5EB29BA193300A033B6 /* CobraUI */ = {
 			isa = PBXGroup;
 			children = (
+				7775F60329BA193E00A033B6 /* Cobra */,
 				7775F5EC29BA193300A033B6 /* CobraUI.h */,
 				7775F5ED29BA193300A033B6 /* CobraUI.docc */,
 			);
@@ -83,6 +88,15 @@
 				7775F5F829BA193300A033B6 /* CobraUITests.swift */,
 			);
 			path = CobraUITests;
+			sourceTree = "<group>";
+		};
+		7775F60329BA193E00A033B6 /* Cobra */ = {
+			isa = PBXGroup;
+			children = (
+				7775F60429BA196800A033B6 /* CobraView.swift */,
+				7775F60629BA19C500A033B6 /* CobraForEach.swift */,
+			);
+			path = Cobra;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -194,6 +208,8 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				7775F60529BA196800A033B6 /* CobraView.swift in Sources */,
+				7775F60729BA19C500A033B6 /* CobraForEach.swift in Sources */,
 				7775F5EE29BA193300A033B6 /* CobraUI.docc in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -403,6 +419,7 @@
 		7775F60129BA193300A033B6 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
 				GENERATE_INFOPLIST_FILE = YES;
@@ -422,6 +439,7 @@
 		7775F60229BA193300A033B6 /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
 				GENERATE_INFOPLIST_FILE = YES;
