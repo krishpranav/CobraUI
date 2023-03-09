@@ -7,7 +7,7 @@
 
 import Foundation
 
-public protocol OptionType {
+public protocol OptionalType {
     associatedtype Wrapped
-    var wrapped: Wrapped? { set }
+    var wrapped: Wrapped? { get }
 }
